@@ -45,8 +45,8 @@ class _MyHomePageState extends State<MyHomePage> {
         elevation: 0.0,
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+        child: ListView(
+          // mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
 
             // first image portion
